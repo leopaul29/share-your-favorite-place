@@ -1,9 +1,9 @@
 import { gql } from "@apollo/client";
 
 export const insertInterestPointMutation = gql`
-  mutation ($longitude: String!, $latitude: String!) {
+  mutation insertInterestPoint($longitude: numeric!, $latitude: numeric!) {
     insert_InterestPoints_one(
-      objects: { longitude: $longitude, latitude: $latitude }
+      object: { longitude: $longitude, latitude: $latitude }
     ) {
       id
     }

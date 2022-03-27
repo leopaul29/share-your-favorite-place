@@ -3,12 +3,14 @@ import CreateInterestPoint from "./add-points/addPoint";
 import GetInterestPoints from "./get-points/getPoints";
 import "./Sidebar.css";
 
-const Sidebar = () => {
+const Sidebar = ({ position, map }) => {
   return (
     <div className="sidebar">
-      <h1>Sidebar</h1>
-      <CreateInterestPoint />
-      <GetInterestPoints />
+      <h1>Share your favorite places with us!</h1>
+      <hr />
+      <CreateInterestPoint position={position} />
+      <hr />
+      <GetInterestPoints map={map} />
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 import Map from "./components/Map";
@@ -15,11 +15,14 @@ function App() {
     },
   });
 
+  const [position, setPosition] = useState(null);
+  const [map, setMap] = useState(null);
+
   return (
     <ApolloProvider client={client}>
       <div className="app">
-        <Sidebar />
-        <Map />
+        <Sidebar position={position} map={map} />
+        <Map setPosition={setPosition} setMap={setMap} />
       </div>
     </ApolloProvider>
   );
