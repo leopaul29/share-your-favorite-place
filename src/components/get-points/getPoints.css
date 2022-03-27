@@ -1,0 +1,14 @@
+.getPoints {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow-y: scroll;
+  height: 100%;
+}
+.point {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

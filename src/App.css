@@ -4,8 +4,16 @@
 }
 
 .app {
+  background-color: #1f2937;
+  color: aliceblue;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.button {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 10px;
 }
