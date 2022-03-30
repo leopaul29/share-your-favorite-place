@@ -12,3 +12,16 @@
   justify-content: space-between;
   align-items: center;
 }
+/* Scroll 2 */
+.sc2::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.sc2::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+.sc2::-webkit-scrollbar-thumb {
+  background-color: #11171a;
+  border-radius: 10px;
+}

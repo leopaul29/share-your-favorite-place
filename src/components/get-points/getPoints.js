@@ -15,13 +15,12 @@ export default function GetInterestPoints({ map }) {
 
   function flyToPoint(position) {
     if (map && position) {
-      console.log(position);
       map.flyTo(position, 5);
     }
   }
 
   return (
-    <div className="getPoints">
+    <div className="getPoints sc2">
       <h3>All interest points</h3>
       <div className="points">
         {data &&
