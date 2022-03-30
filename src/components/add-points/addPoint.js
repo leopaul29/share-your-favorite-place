@@ -15,6 +15,10 @@ export default function CreateInterestPoint({ position }) {
       setLoading(true);
       await insertInterestPoint({
         variables: { longitude, latitude },
+      }).then(() => {
+        setLongitude(0);
+        setLatitude(0);
+        setLoading(false);
       });
     } catch (error) {
       setLoading(false);
