@@ -1,6 +1,7 @@
 # Hashnode Hackathon with Hasura
 * [Hashnode post](https://townhall.hashnode.com/hasura-hackathon?source=main_feed)
 * [My blog post](https://lpm.hashnode.dev/hasura-x-hashnode-hackathon)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/88953205-c998-43f5-9312-09ee9a5fb9e6/deploy-status)](https://app.netlify.com/sites/share-your-favorite-places/deploys)
 
 ### How to improve?
