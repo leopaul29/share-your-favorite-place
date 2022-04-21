@@ -1,3 +1,17 @@
+# Hashnode Hackathon with Hasura
+* [Hashnode post](https://townhall.hashnode.com/hasura-hackathon?source=main_feed)
+* [My blog post](https://lpm.hashnode.dev/hasura-x-hashnode-hackathon)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/88953205-c998-43f5-9312-09ee9a5fb9e6/deploy-status)](https://app.netlify.com/sites/share-your-favorite-places/deploys)
+
+### How to improve?
+* Add a "like" button to the existing position to vote for a similar
+* Increase the marker's size accordingly to the number of votes
+* Add a 'reactif-toastify' popup when adding a new point
+* Subscribing to the point list with GraphQL
+* Fix the weird refresh when clicking on the map
+* Share properly the AppData with Redux
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
